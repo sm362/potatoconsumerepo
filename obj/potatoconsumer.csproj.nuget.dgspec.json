@@ -43,6 +43,10 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
             }
           },
           "imports": [

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "potatoconsumer/1.0.0": {
         "dependencies": {
-          "Confluent.Kafka": "2.3.0"
+          "Confluent.Kafka": "2.3.0",
+          "NLog": "5.3.4"
         },
         "runtime": {
           "potatoconsumer.dll": {}
@@ -155,6 +156,14 @@
           }
         }
       },
+      "NLog/5.3.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.4.2778"
+          }
+        }
+      },
       "System.Memory/4.5.0": {}
     }
   },
@@ -177,6 +186,13 @@
       "sha512": "sha512-pH5zFZ0S56Wl6UfRkmDJN2AjHlPdVxlTskncFnL27LLGQuuY2dAU8YrZBkduBOws4tURS2TaTp1aPsY3qeJ0bw==",
       "path": "librdkafka.redist/2.3.0",
       "hashPath": "librdkafka.redist.2.3.0.nupkg.sha512"
+    },
+    "NLog/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gLy7+O1hEYJXIlcTr1/VWjGXrZTQFZzYNO18IWasD64pNwz0BreV+nHLxWKXWZzERRzoKnsk2XYtwLkTVk7J1A==",
+      "path": "nlog/5.3.4",
+      "hashPath": "nlog.5.3.4.nupkg.sha512"
     },
     "System.Memory/4.5.0": {
       "type": "package",

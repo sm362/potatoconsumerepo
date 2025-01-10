@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JPd2SpBHsyeKz1Dn0oKGyYNvHKUSe4/0uFRiefUqzb/74+gzamxNQ9k+4Vc9sUCdYhNDatos6JIlUh7LivGrng==",
+  "dgSpecHash": "4gY+LR35+jXqUKed37ObNht+dGDpt3XZ6WpNpoMwajxPBHN6Y+2Wf42XMzyJUyqReWi8Ikbw036t9wC6nocZXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sagar\\Desktop\\potatoconsumer\\potatoconsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sagar\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
     "C:\\Users\\sagar\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\sagar\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
     "C:\\Users\\sagar\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
   ],
   "logs": []

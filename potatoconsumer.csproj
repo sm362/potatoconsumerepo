@@ -9,9 +9,9 @@
 
 
   <ItemGroup>
-    
     <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
-
+    <PackageReference Include="NLog" Version="5.3.4" />    
+    <None Update="nlog.config" CopyToOutputDirectory="Always" />
   </ItemGroup>
 
 </Project>
