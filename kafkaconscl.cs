@@ -4,7 +4,6 @@ using Confluent.Kafka;
 
 namespace potatoconsumer;
 
-
 public class Cl_A {
     public int Id { get; set; }
     public string Name { get; set; }
@@ -13,7 +12,7 @@ public class kafkaconscl
 {
     public void consfn() 
     {
-        
+        var logger = NLog.LogManager.GetCurrentClassLogger();
         var config = new ConsumerConfig {  // consumerconfig is from confluent kafka
             GroupId="potatoconsumergroup" ,
             BootstrapServers = "localhost:9092",
@@ -33,6 +32,10 @@ public class kafkaconscl
             {
                 //Cl_A deserob = JsonSerializer.Deserialize<Cl_A>(response.Message.Value);
                 Console.WriteLine($"🥣 {response.Message.Value}"  );
+                logger.Info("{arg1} ", response.Message.Value);
+
+
+
             }
         }
     }
